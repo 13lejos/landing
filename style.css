@@ -1,8 +1,9 @@
 
 .header{
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .logo{
@@ -11,6 +12,11 @@
 
 .link{
     list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    gap: 20px
 }
 
 

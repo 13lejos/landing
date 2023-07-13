@@ -47,12 +47,23 @@ body{
 }
 .container1, .container2, .container3, .container4{
     border: 1px red solid;
-   display: flex;
-   flex: 1;
+    display: flex;
+    flex: 1;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container1{
-     background-color: #1F2937;
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: row;
+    gap: 50px;
+    }
+.container1 > div{
+
     }
 
 .container2{
@@ -67,7 +78,40 @@ body{
     background-color: white;
 }
 
+.signup{
+    display: flex;
+    flex-direction: column;
+}
 
+.signuphead{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #FAF9F8;
+    margin: 0;
+}
+
+.signupwelcome{
+    color: white;
+}
+
+.signupbutton{
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: white;
+    padding: 4px 24px 4px 24px;
+    align-self: start; 
+}
+.signupimg{
+    border: 1px red solid;
+    flex: 0 0 auto;
+    height: 350px;
+    width: 400px;
+}
+
+ .signupimg > img{
+    width: 100%;
+    height: 100%;
+ }
 
 
 
